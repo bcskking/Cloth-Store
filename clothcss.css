@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+.category {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.men {
+    text-align: center;
+}
+
+.women {
+    text-align: center;
+}
+
+.kids {
+    text-align: center;
+}
+
+.featured {
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #444; /* Fallback color */
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Places the video behind the text */
+}
+
+.featured h1, .featured p {
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+}
+
