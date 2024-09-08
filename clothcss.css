@@ -68,7 +68,7 @@ nav ul li a {
     position: relative;
     text-align: center;
     padding: 100px 20px;
-    background-color: #444; /* Fallback color */
+    background-color: #444; 
     overflow: hidden;
 }
 
@@ -78,9 +78,25 @@ nav ul li a {
     z-index: 1;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-}
+
+    .products {
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .products h1 {
+        margin-bottom: 20px;
+    }
+    
+    .product {
+        display: inline-block;
+        margin: 20px;
+    }
+    
+    .product img {
+        width: 200px;
+        height: auto;
+        display: block;
+    }
+
 
